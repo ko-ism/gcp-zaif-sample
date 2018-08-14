@@ -1,0 +1,5 @@
+cron:
+- description: Push to pubsub every 1 minutes
+  url: /
+  schedule: every 1 minutes
+  timezone: Asia/Tokyo

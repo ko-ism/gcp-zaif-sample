@@ -1,0 +1,5 @@
+Flask==1.0.2
+google-cloud-pubsub==0.35.4
+gunicorn==19.8.1
+requests==2.19.1
+zaifapi==1.6.2
