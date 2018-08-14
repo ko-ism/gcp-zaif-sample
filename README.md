@@ -1,2 +1,10 @@
 # gcp-zaif-sample
-1.get bitcoin/ethereum cost data per jpy 2.push to pubsub topic using google app engine
+・概要は以下の通り。
+1.ビットコイン/イーサリアムの取引価格をZaifAPIで取得
+2.指定するpubsubトピックへpublishする
+
+・デプロイ手順
+1. git clone https://github.com/ko-ism/gcp-zaif-sample.git
+2. cd gcp-zaif-sample
+3. pip install -r requirements.txt
+4. gcloud app deploy
